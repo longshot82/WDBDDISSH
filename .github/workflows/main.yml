@@ -34,10 +34,10 @@ jobs:
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.3.1
         with:
-          name: DeveloperDiskImageModified_16.1
+          name: DeveloperDiskImageModified_16.7
           path: |
-            DeveloperDiskImageModified_16.1.dmg
-            DeveloperDiskImageModified_16.1.dmg.signature
+            DeveloperDiskImageModified_16.7.dmg
+            DeveloperDiskImageModified_16.7.dmg.signature
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.3.1
